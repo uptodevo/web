@@ -1,0 +1,22 @@
+@use '../custom' as*;
+
+
+.menu{
+    background-color: $teal;
+    
+}
+
+
+
+li{
+    font-family: 'Handlee', cursive;
+    padding:0 0.7em;
+
+}
+
+.dropdown ul{
+    background-color: rgba(248, 248, 248, 0.442);
+    border: none;
+
+}
+

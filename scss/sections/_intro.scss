@@ -1,0 +1,65 @@
+@use '../custom' as*;
+
+
+
+.intro-section{
+    background:linear-gradient(to bottom,rgba($green,0.95),rgba($light,0.95));
+    padding:0 0 0 0;
+    width: 100%;
+    height: 100%;
+   margin: top 0;
+}
+
+.basic-4{
+    background:linear-gradient(to bottom,rgba($teal,0.95),rgba($dark,0.95));
+}
+.p-5{
+   background-color: $orange;
+   margin-bottom: 30px;
+}
+
+.py-4{
+background-color: $yellow;
+margin-bottom: 50px;
+
+}
+
+.intro-section-about{
+    background-color: $yellow;
+    padding: 14rem 0 0 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.about-section{
+    padding: 5rem 0 0 0;
+    width: 100%;
+    height: 100%;
+    background-color: #212529;
+}
+
+.card-body{
+
+    background-color: $dark;
+}
+
+.card-title{
+    color: rgb(253, 248, 248);
+}
+
+.shop{
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.col-sm-5{
+    margin-bottom: 100px;
+}
+
+
+.video{
+    margin-top: 150px;
+}

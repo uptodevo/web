@@ -1,0 +1,90 @@
+@use'../custom' as *;
+
+.course-info{
+    margin-top: 30px;
+    color: #c3d182;
+    font-family: 'Handlee', cursive;
+ 
+}
+
+.course-text{
+    margin-top: 20px;
+    color: rgb(251, 250, 250);
+
+}
+
+.course-text h2{
+    color: #3f4232;
+}
+.course-section{
+    margin-bottom: 30px;
+    background-color:$dark;
+    padding:0 0 0 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.course-intro{
+    margin-top: 150px;
+    background:$teal;
+    padding:0 0 0 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.contact-us {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.contact-us h3,
+p {
+    color: rgb(255, 255, 255)
+}
+
+.address {
+    margin-top: 14px !important;
+    margin-left: 10px
+}
+
+.address span {
+    color: #daf195
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(63, 100, 235);
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.icons i {
+    color: #ffffff;
+    font-size: 20px
+   
+
+    
+}
+
+
+.more-info{
+    font-family: 'Handlee', cursive;
+  
+
+}
+
+.img-fluid{
+    margin-top: 100px;
+    
+}
+
+
+

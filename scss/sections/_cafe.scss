@@ -1,0 +1,23 @@
+@use'../custom' as *;
+
+
+
+
+.wrapper {
+    margin-top: 9.5rem;
+    margin-bottom: 15rem;
+    height: 100vh;
+    background: rgb(12, 12, 12);
+    background: url("#");
+    background-size: cover;
+    width: 100%
+    
+
+
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6)
+}

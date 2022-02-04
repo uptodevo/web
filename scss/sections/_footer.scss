@@ -1,0 +1,51 @@
+@use'../custom'as*;
+
+
+.footer-pad{
+  font-family: 'Handlee', cursive;
+  padding:0 0.7em;
+}
+
+
+ footer {
+    background: #25251d;
+   
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+  
+  footer a:hover {
+    color: #e7da91;
+    text-decoration: none;
+  }
+  
+  .copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+  }
+  
+  .footer-middle {
+    padding-top: 1em;
+    color: rgb(186, 187, 110);
+    
+  }
+  
+
+  .footer-pad p {
+    margin-left: 40px;
+    -ms-text-align-last: center;
+    color: #000;
+    
+  }
+
+  
+
+  
+
+  
+ 

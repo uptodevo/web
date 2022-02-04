@@ -1,0 +1,17 @@
+@use'custom';
+
+//import components
+@use 'components/animations';
+@use 'components/button';
+@use 'components/mixins';
+@use 'components/typography';
+
+//import sections
+@use 'sections/cafe';
+@use 'sections/carousel';
+@use 'sections/contact';
+@use 'sections/courses';
+@use 'sections/footer';
+@use 'sections/intro';
+@use 'sections/navbar';
+@use 'sections/form';

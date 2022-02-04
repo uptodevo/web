@@ -1,0 +1,44 @@
+@use'../custom' as *;
+  
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+
+  .row {
+  
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding:5px;
+  }
+  
+  
+
+  .text{
+    background-color: $info;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  
+  .zoom {
+    
+    padding: 6%;
+     background-color: rgba(36, 34, 34, 0.336)20%rgba(172, 52, 52, 0.1);
+     transition: transform 0.1s;
+     width: auto;
+     height: auto;
+     margin: 5px;
+   }
+   
+   .zoom:hover {
+     -ms-transform: scale(0.9); /* IE 9 */
+     -webkit-transform: scale(0.9); /* Safari 3-8 */
+     transform: scale(0.9); 
+   }
+   
+   .carousel-inner{
+     margin-top: 150px;
+     margin-bottom: 0px;
+   }

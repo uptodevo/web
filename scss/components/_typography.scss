@@ -1,0 +1,107 @@
+@use '../custom' as*;
+
+.body{
+  font-family: 'Handlee', cursive;
+  margin: 0px;
+ 
+}
+.display-2{
+    margin-bottom: 0.5em;
+    text-transform: capitalize;
+
+    &--intro{
+      display:inline-block 
+      font-weight 500px; 
+      color:black;
+      font-family: 'Handlee', cursive;
+      color: #282c2a;
+     
+    }
+
+    &--description {
+        font-family: 'Handlee', cursive;
+        font-size:1.5em;
+        display:block;
+        margin-top: 1rem;
+        color:rgb(45, 64, 56);
+
+
+        
+    }
+
+}
+
+.more-info{
+   font-family: 'Handlee', cursive;
+}
+
+.p-5{
+  font-family: 'Handlee', cursive;
+  color: rgb(51, 31, 31);
+
+}
+
+.display-2{
+
+  margin-bottom: 1rem;
+    text-transform: capitalize;
+
+    &--about{
+      display:inline-block 
+      font-weight 700px; 
+      color:black;
+      font-family: 'Handlee', cursive;
+      color: #777c3e;
+     
+    }
+
+    &--description-us {
+        font-family: 'Handlee', cursive;
+        font-size:1.5em;
+        display:block;
+        margin-top: 1rem;
+        color:rgb(54, 54, 50);
+
+    }
+
+
+}
+
+
+
+.h5{
+  font-family: 'Handlee', cursive;
+  
+}
+
+
+
+.footer-pad-contacts h4{
+  font-family: 'Handlee', cursive;
+}
+
+
+.text-center{
+  font-family: 'Handlee', cursive;
+}
+
+.badge{
+  font-family: 'Handlee', cursive;
+
+}
+
+
+.card-title {
+  color: rgb(28, 123, 101);
+  font-family: 'Handlee', cursive;
+  font-size: bold;
+}
+
+.card-text{
+  color: rgb(65, 71, 70);
+  font-family: 'Handlee', cursive;
+}
+
+
+
+
