@@ -11178,7 +11178,7 @@ textarea.form-control-lg {
   border-radius: 60%;
 }
 .btn-rounded2 span i {
-  color: #fff;
+  color: #e9d8a6e3;
   font: size 1rem;
   line-height: 2.5rem;
 }
@@ -11268,12 +11268,15 @@ textarea.form-control-lg {
   font-family: "Handlee", cursive;
 }
 
+.bg-dark {
+  font-family: "Handlee", cursive;
+}
+
 .wrapper {
   margin-top: 9.5rem;
   margin-bottom: 15rem;
   height: 100vh;
   background: #0c0c0c;
-  background: url("#");
   background-size: cover;
   width: 100%;
 }
@@ -11282,6 +11285,11 @@ textarea.form-control-lg {
   width: 100%;
   height: 100vh;
   background: rgba(0, 0, 0, 0.6);
+}
+
+.cafe-section {
+  margin-top: 150px;
+  background-color: #212529;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -11424,6 +11432,10 @@ textarea.form-control-lg {
   margin-top: 50px;
 }
 
+.icons {
+  margin-left: 20px;
+}
+
 .course-info {
   margin-top: 30px;
   color: #c3d182;
@@ -11478,7 +11490,7 @@ p {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #3f64eb;
+  background-color: #33a581;
   display: inline-block;
   display: flex;
   justify-content: center;
@@ -11592,18 +11604,35 @@ footer a:hover {
   margin-top: 150px;
 }
 
+.shop-section {
+  padding: 5rem 0 0 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
+
 .menu {
   background-color: #456158;
 }
-
-li {
+.menu li {
   font-family: "Handlee", cursive;
   padding: 0 0.7em;
 }
+.menu li a {
+  color: white !important;
+}
+
+.navbar ul li a:hover {
+  color: #33a581 !important;
+}
 
 .dropdown ul {
-  background-color: rgba(248, 248, 248, 0.442);
+  background-color: rgba(255, 255, 255, 0.489);
   border: none;
+}
+
+.dropdown ul li a {
+  color: #2a2a2a !important;
 }
 
 /*# sourceMappingURL=style.css.map */

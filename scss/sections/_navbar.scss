@@ -2,21 +2,45 @@
 
 
 .menu{
-    background-color: $teal;
+    background-color: $teal;  
     
+    li{
+        font-family: 'Handlee', cursive;
+        padding:0 0.7em;
+
+
+        a{
+            color:rgb(255, 255, 255) !important;
+            
+
+           
+        }
+
+    
+
+    }
 }
 
-
-
-li{
-    font-family: 'Handlee', cursive;
-    padding:0 0.7em;
+ .navbar ul li a:hover {
+    color:  #33a581!important;
 
 }
+
 
 .dropdown ul{
-    background-color: rgba(248, 248, 248, 0.442);
+    background-color: rgba(255, 255, 255, 0.489);
     border: none;
+    
 
 }
+
+
+.dropdown ul li a{
+color: rgb(42, 42, 42) !important;
+
+}
+
+
+
+
 
